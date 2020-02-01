@@ -48,9 +48,9 @@ struct ArcSelectionView: View {
                 }
             }
         }
-        //.opacity(self.isShowing ? 1 : 0)
-        //.rotationEffect(.degrees(self.isShowing ? 0 : 180))
-        //.animation(.linear(duration: 0.5))
+        .opacity(self.isShowing ? 1 : 0)
+        .rotationEffect(.degrees(self.isShowing ? 0 : 180))
+        .animation(.linear(duration: 0.5))
     }
 }
 
